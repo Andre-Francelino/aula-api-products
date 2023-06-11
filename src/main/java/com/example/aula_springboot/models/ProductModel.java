@@ -1,10 +1,10 @@
 package com.example.aula_springboot.models;
 
-import jakarta.persistence.*;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.UUID;
+
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "TB_PRODUCTS")
